@@ -3,7 +3,7 @@
 Helm Plugin to generate OpenTelemetry traces for helm commands.
 
 ```
-helm trace version
+helm trace <Your Standard helm Command>
 ```
 
 ## Prerequisites
