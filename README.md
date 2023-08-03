@@ -38,3 +38,9 @@ export HT_OTEL_ENDPOINT=http://otelcol.somewhere.com:4318
 export HT_OTEL_ENDPOINT=helm-dev
 helm trace install ...
 ```
+
+## Remove Plugin
+
+```
+helm plugin remove trace
+```
