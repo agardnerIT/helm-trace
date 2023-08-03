@@ -1,5 +1,7 @@
 # Helm Plugin to Generate OpenTelemetry Traces
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-trace)](https://artifacthub.io/packages/search?repo=helm-trace)
+
 Helm Plugin to generate OpenTelemetry traces for helm commands.
 
 ```
