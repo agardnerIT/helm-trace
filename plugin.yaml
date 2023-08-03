@@ -1,0 +1,11 @@
+name: "trace"
+version: "0.1.0"
+usage: "helm trace version"
+description: "Generate OpenTelemetry traces for helm commands"
+ignoreFlags: false
+command: "$HELM_PLUGIN_DIR/script.sh"
+platformCommand:
+  - os: "linux"
+    command: "$HELM_PLUGIN_DIR/script.sh"
+hooks:
+  install: "chmod +x $HELM_PLUGIN_DIR/script.sh"
