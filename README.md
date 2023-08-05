@@ -8,6 +8,8 @@ Helm Plugin to generate OpenTelemetry traces for helm commands.
 helm trace <Your Standard helm Command>
 ```
 
+![helm trace install](assets/helm-trace-install.png)
+
 ## Prerequisites
 - Currently only supports Linux and MacOS
 - You must have [a standalone binary of tracepusher in your path](https://github.com/agardnerIT/tracepusher/releases/latest) (ie. you are able to run `tracepusher` from the command line and see output)
