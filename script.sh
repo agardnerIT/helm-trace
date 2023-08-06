@@ -20,6 +20,6 @@ time_start=0
 $commandToRun
 time_end=$SECONDS
 
-duration=$(( $time_end - $time_start ))
+duration=$SECONDS
 
 tracepusher -e $HT_OTELCOL_ENDPOINT -sen $HT_SERVICE_NAME -spn "$commandToRun" -dur $duration
