@@ -16,7 +16,6 @@ then
   HT_SERVICE_NAME=helm
 fi
 
-time_start=0
 $commandToRun
 time_end=$SECONDS
 
