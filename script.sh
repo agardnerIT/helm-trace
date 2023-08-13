@@ -17,8 +17,6 @@ then
 fi
 
 $commandToRun
-time_end=$SECONDS
-
 duration=$SECONDS
 
 tracepusher -e $HT_OTELCOL_ENDPOINT -sen $HT_SERVICE_NAME -spn "$commandToRun" -dur $duration
